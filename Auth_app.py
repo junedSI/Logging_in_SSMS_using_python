@@ -1,4 +1,4 @@
-from logger import Logger
+from Logging_in_python.logger import Logger
 import time
 import re
 import os

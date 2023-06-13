@@ -2,7 +2,6 @@ import pyodbc
 import datetime
 import inspect
 
-
 class Logger:
     def __init__(self, log_file, server, database, username, password, tablename):
         """
@@ -76,7 +75,7 @@ class Logger:
                 self.cursor.execute(create_table_query)
                 self.conn.commit()
                 # print("Table created successfully")
-                # we should do common exception handdeling so that the parent function can get it. either do a raise
+                # we should do common exception handdeling so that the parent function can get it. either do a raise  
 
         except pyodbc.Error as e:
             print(f"Error occurred: {str(e)}")
