@@ -1,6 +1,0 @@
-app.log
-ilinkdetrainingserver.database.windows.net
-training001
-detraining
-iLinkTraining
-[Juned.Inamdar].logs
